@@ -31,7 +31,7 @@ nltk.download('omw-1.4')
 warnings.filterwarnings("ignore")
 
 
-df = pd.read_csv("C:/nlp/Fed_Scrape-2015-2023.csv",delimiter=',',nrows=20000)
+df = pd.read_csv("https://raw.githubusercontent.com/nickkats1/FOMC_NER/refs/heads/main/Fed_Scrape-2015-2023.csv",nrows=20000)
 
 
 df.drop('Unnamed: 0',inplace=True,axis=1)
